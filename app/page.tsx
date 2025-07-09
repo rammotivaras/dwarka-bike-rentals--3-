@@ -7,7 +7,7 @@ import HowItWorks from "@/components/how-it-works"
 import DwarkaTouristSpots from "@/components/dwarka-tourist-spots"
 import BikeRentalFAQ from "@/components/bike-rental-faq"
 import type { Metadata } from "next"
-
+import { Analytics } from '@vercel/analytics/react';
 export const metadata: Metadata = {
   title: "Dwarka Bike Rentals - Best Bike Rental Service in Dwarka, Gujarat",
   description:
@@ -29,6 +29,7 @@ export default function Home() {
         <BikeRentalFAQ />
       </div>
       <Footer />
+       <Analytics />
     </main>
   )
 }
