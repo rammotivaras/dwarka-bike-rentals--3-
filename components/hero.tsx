@@ -80,7 +80,7 @@ export default function Hero() {
       </span>
       <span className="flex items-center gap-1.5">
         <span className="h-2 w-2 rounded-full bg-red-400"></span>
-        Diwali Special Offer
+        NewYear Special Offer
       </span>
     </div>
   </div>
