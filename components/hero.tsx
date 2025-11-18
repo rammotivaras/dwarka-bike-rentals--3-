@@ -27,7 +27,7 @@ export default function Hero() {
     {/* Diwali Offer Message placed below the main heading */}
     <div className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 text-white py-3 px-4 rounded-lg text-center animate-pulse">
       <div className="text-lg font-bold flex items-center justify-center gap-2">
-        <span>🎉 Diwali Special!</span>
+        <span>🎉 NewYear Special!</span>
         <span className="bg-white text-red-600 px-2 py-1 rounded-md text-sm">BEST FARE</span>
       </div>
       <div className="text-sm mt-1 opacity-90">
