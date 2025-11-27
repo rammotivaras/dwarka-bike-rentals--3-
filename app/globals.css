@@ -57,3 +57,71 @@
     @apply bg-background text-foreground;
   }
 }
+/* Add these animations to your global CSS file */
+
+/* Snowflake animation */
+@keyframes fall {
+  0% { 
+    transform: translateY(-100px) rotate(0deg); 
+    opacity: 0.7;
+  }
+  100% { 
+    transform: translateY(100vh) rotate(360deg); 
+    opacity: 0;
+  }
+}
+
+.snowflake {
+  animation: fall linear infinite;
+  animation-duration: 8s;
+}
+
+/* Pulse animation */
+@keyframes pulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.6; }
+}
+
+.pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* Ping animation */
+@keyframes ping {
+  0% { 
+    transform: scale(1);
+    opacity: 1;
+  }
+  75%, 100% { 
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.ping {
+  animation: ping 2s ease-in-out infinite;
+}
+
+/* Bounce animation */
+@keyframes bounce {
+  0%, 100% { 
+    transform: translateY(0); 
+  }
+  50% { 
+    transform: translateY(-5px); 
+  }
+}
+
+.bounce {
+  animation: bounce 1s ease-in-out infinite;
+}
+
+/* Slow spin animation */
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.spin-slow {
+  animation: spin-slow 3s linear infinite;
+}
