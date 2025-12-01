@@ -46,11 +46,10 @@ export default function Hero() {
     <div className="bg-gradient-to-r from-green-600 to-red-600 text-white py-3 px-4 rounded-lg text-center pulse border-2 border-yellow-400">
       <div className="text-lg font-bold flex items-center justify-center gap-2">
         <span>🎅 Christmas Special Offer!</span>
-        <span className="bg-white text-green-600 px-2 py-1 rounded-md text-sm">10% OFF on 3+ days</span>
+ <div className="text-3xl">₹199</div>
+                    <div className="text-sm font-semibold">Starting Price</div>
       </div>
-      <div className="text-sm mt-1 opacity-90">
-        Book for 3 or more days and get extra 10% discount • Limited time offer
-      </div>
+     
     </div>
 
     <p className="text-lg text-white/90 leading-relaxed">
@@ -83,24 +82,24 @@ export default function Hero() {
       </Button>
     </div>
     
-    <div className="flex flex-wrap items-center gap-4 text-white/80 text-sm">
-      <span className="flex items-center gap-1.5">
-        <span className="h-2 w-2 rounded-full bg-green-400 pulse"></span>
-        10% OFF on 3+ days booking
-      </span>
-      <span className="flex items-center gap-1.5">
-        <span className="h-2 w-2 rounded-full bg-blue-400"></span>
-        Near Dwarkadhish Temple
-      </span>
-      <span className="flex items-center gap-1.5">
-        <span className="h-2 w-2 rounded-full bg-yellow-400"></span>
-        Easy booking
-      </span>
-      <span className="flex items-center gap-1.5">
-        <span className="h-2 w-2 rounded-full bg-red-400 pulse"></span>
-        Christmas Special Offer
-      </span>
-    </div>
+  <div className="flex flex-wrap items-center gap-4 text-white/80 text-sm">
+  <span className="flex items-center gap-1.5">
+    <span className="h-2 w-2 rounded-full bg-green-400 pulse"></span>
+    Starting at just ₹199
+  </span>
+  <span className="flex items-center gap-1.5">
+    <span className="h-2 w-2 rounded-full bg-blue-400"></span>
+    Near Dwarkadhish Temple
+  </span>
+  <span className="flex items-center gap-1.5">
+    <span className="h-2 w-2 rounded-full bg-yellow-400"></span>
+    Easy booking
+  </span>
+  <span className="flex items-center gap-1.5">
+    <span className="h-2 w-2 rounded-full bg-red-400 pulse"></span>
+    Christmas Special Offer
+  </span>
+</div>
   </div>
 </div>
 
