@@ -57,18 +57,18 @@ export default function Hero() {
     Discover Dwarka's sacred wonders on two wheels - where every ride becomes a spiritual journey.
   </p>
   
-  <div className="flex flex-wrap gap-3">
-    <span className="bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-sm border border-white/30">
-      🛕 Temple Visits Made Easy
-    </span>
-    <span className="bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-sm border border-white/30">
-      🏖️ Beach Cruises
-    </span>
-    <span className="bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-sm border border-white/30">
-      🗺️ Hidden Gems
-    </span>
-   
-  </div>
+ <div className="hidden md:flex md:flex-wrap md:gap-3">
+  <span className="bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-sm border border-white/30">
+    🛕 Temple Visits Made Easy
+  </span>
+  <span className="bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-sm border border-white/30">
+    🏖️ Beach Cruises
+  </span>
+  <span className="bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-sm border border-white/30">
+    🗺️ Hidden Gems
+  </span>
+</div>
+
 </div>
     
     <div className="flex flex-wrap gap-4">
@@ -117,7 +117,8 @@ export default function Hero() {
         <Link 
           href="/" 
           className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bounce"
-        >
+          >
+          
           <ChevronDown className="h-10 w-10 text-white/80 hover:text-white cursor-pointer transition-colors" />
         </Link>
       </div>
