@@ -45,18 +45,31 @@ export default function Hero() {
     {/* Christmas Offer Message placed below the main heading */}
     <div className="bg-gradient-to-r from-green-600 to-red-600 text-white py-3 px-4 rounded-lg text-center pulse border-2 border-yellow-400">
       <div className="text-lg font-bold flex items-center justify-center gap-2">
-        <span>🎅 Christmas Special Offer!</span>
+        <span>🎅 Dwarka Bike Rentals!</span>
  <div className="text-3xl">₹199</div>
                     <div className="text-sm font-semibold">Starting Price</div>
       </div>
      
     </div>
 
-    <p className="text-lg text-white/90 leading-relaxed">
-      Rent our premium bikes to visit sacred sites like Nageshwar Temple, 
-      explore the mystical Bet Dwarka island, discover Gopi Talav's serene beauty, 
-      or cruise along the golden shores of Shivrajpur Beach.
-    </p>
+   <div className="space-y-3">
+  <p className="text-lg text-white/90 leading-relaxed font-medium">
+    Discover Dwarka's sacred wonders on two wheels - where every ride becomes a spiritual journey.
+  </p>
+  
+  <div className="flex flex-wrap gap-3">
+    <span className="bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-sm border border-white/30">
+      🛕 Temple Visits Made Easy
+    </span>
+    <span className="bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-sm border border-white/30">
+      🏖️ Beach Cruises
+    </span>
+    <span className="bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-sm border border-white/30">
+      🗺️ Hidden Gems
+    </span>
+   
+  </div>
+</div>
     
     <div className="flex flex-wrap gap-4">
       <Button
@@ -95,10 +108,7 @@ export default function Hero() {
     <span className="h-2 w-2 rounded-full bg-yellow-400"></span>
     Easy booking
   </span>
-  <span className="flex items-center gap-1.5">
-    <span className="h-2 w-2 rounded-full bg-red-400 pulse"></span>
-    Christmas Special Offer
-  </span>
+  
 </div>
   </div>
 </div>
