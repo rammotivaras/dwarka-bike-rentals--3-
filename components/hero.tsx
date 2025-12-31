@@ -29,16 +29,22 @@ export default function Hero() {
     ⭐ Dwarka Bike Rentals
   </p>
   <p className="text-sm font-medium text-slate-800">
-    Fast Booking • Well Maintained Vehicles • Local Support
+    Fast Booking • Well Maintained Vehicles • Local Guidance
   </p>
 </div>
 
 
 
-
-          <p className="text-lg text-white/90">
-            Rent bikes & scooters near Dwarkadhish Temple. Easy booking & best prices.
-          </p>
+<div className="relative">
+  <p className="text-lg text-white/90">
+    Rent bikes & scooters near Dwarkadhish Temple.
+  </p>
+  <div className="inline-flex items-center mt-3 px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full">
+    <span className="text-white font-bold tracking-wider">
+      ✨ Happy New Year 2026 ✨
+    </span>
+  </div>
+</div>
 
           {/* CALL + WHATSAPP */}
           <div className="flex flex-wrap gap-4">
@@ -94,9 +100,9 @@ export default function Hero() {
 
         <Link
           href="/"
-          className="absolute bottom-8 left-1/2 -translate-x-1/2"
+          className="absolute bottom-2 left-1/2 -translate-x-1/2"
         >
-          <ChevronDown className="h-10 w-10 text-white/80" />
+          <ChevronDown className="h-10 w-10 text-black" />
         </Link>
       </div>
     </div>
