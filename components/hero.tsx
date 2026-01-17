@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import { Phone, ChevronDown } from "lucide-react"
 import Link from "next/link"
-import { FaWhatsappSquare } from "react-icons/fa"
+import { FaFlag, FaWhatsappSquare } from "react-icons/fa"
 
 export default function Hero() {
   return (
@@ -38,10 +38,13 @@ export default function Hero() {
 <div className="relative">
   <p className="text-lg text-white/90">
     Rent bikes & scooters near Dwarkadhish Temple.
+    <span className="text-yellow-300 font-medium ml-1">Perfect for Republic Day!</span>
   </p>
-  <div className="inline-flex items-center mt-3 px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full">
-    <span className="text-white font-bold tracking-wider">
-      ✨ Happy New Year 2026 ✨
+  <div className="inline-flex items-center mt-3 px-4 py-2 bg-gradient-to-r from-orange-500 to-green-500 rounded-full">
+    <span className="text-white font-bold tracking-wider flex items-center gap-2">
+      <FaFlag className="h-3 w-3" />
+      Happy Republic Day 2026
+      <FaFlag className="h-3 w-3" />
     </span>
   </div>
 </div>
