@@ -36,7 +36,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <Bike className="h-8 w-8 text-yellow-400" />
-            <span className="font-bold text-xl">Dwarka Bike Rentals</span>
+            <span className="font-bold text-xl text-yellow-400">Dwarka Bike Rentals</span>
           </Link>
 
           {/* DESKTOP */}
@@ -48,7 +48,7 @@ export default function Navbar() {
                 target={link.href.startsWith("http") ? "_blank" : "_self"}
                 className={cn(
                   "text-sm font-medium transition-colors",
-                  pathname === link.href ? "text-yellow-500" : "text-slate-700 hover:text-yellow-500"
+                  pathname === link.href ? "text-yellow-500" : "text-slate-900 hover:text-yellow-500"
                 )}
               >
                 {link.name}
