@@ -36,32 +36,11 @@ export default function Hero() {
           </p>
 
           {/* Republic Day Highlight */}
-    <div className="inline-flex items-center gap-3 bg-gradient-to-r from-orange-500 via-white to-green-500 px-5 py-2 rounded-full shadow">
-
-  {/* Left waving flag */}
-  <span className="mini-flag wave">
-    <svg viewBox="0 0 60 40" className="flag-svg">
-      <rect width="60" height="13.33" y="0" fill="#FF9933" />
-      <rect width="60" height="13.33" y="13.33" fill="#FFFFFF" />
-      <rect width="60" height="13.33" y="26.66" fill="#138808" />
-      <circle cx="30" cy="20" r="4" stroke="#000080" strokeWidth="1.2" fill="none" />
-    </svg>
-  </span>
-
-  <span className="font-bold text-slate-900 tracking-wide">
-    Republic Day Special
-  </span>
-
-  {/* Right waving flag */}
-  <span className="mini-flag wave delay">
-    <svg viewBox="0 0 60 40" className="flag-svg">
-      <rect width="60" height="13.33" y="0" fill="#FF9933" />
-      <rect width="60" height="13.33" y="13.33" fill="#FFFFFF" />
-      <rect width="60" height="13.33" y="26.66" fill="#138808" />
-      <circle cx="30" cy="20" r="4" stroke="#000080" strokeWidth="1.2" fill="none" />
-    </svg>
-  </span>
-
+    <div className="inline-flex items-center gap-3 bg-gradient-to-r from-orange-500 via-white to-green-500 px-5 py-2 rounded-full shadow hover:shadow-lg transition-shadow">
+  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+  </svg>
+  <h3 className="font-bold">Verified Local</h3>
 </div>
 
 
