@@ -13,6 +13,7 @@ const navLinks = [
   { name: "Rental Info", href: "/rental-info" },
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
+ { name: "Auto Rickshaw", href: "/auto-rickshaw-dwarka" },
   { name: "Taxi Service", href: "https://dwarkacab.in" }, // ✅ IMPORTANT
 ]
 
