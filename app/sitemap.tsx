@@ -1,42 +1,45 @@
-import type { MetadataRoute } from "next";
+import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = "https://dwarkabikerentals.in";
+  const currentDate = new Date().toISOString();
+
   return [
     {
-      url: "https://dwarkabikerentals.in/",
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 1.0,
+      url: `${baseUrl}/`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 1,
     },
     {
-      url: "https://dwarkabikerentals.in/how-it-works",
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.8,
-    },
-    {
-      url: "https://dwarkabikerentals.in/rental-info",
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.8,
-    },
-    {
-      url: "https://dwarkabikerentals.in/about",
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.7,
-    },
-    {
-      url: "https://dwarkabikerentals.in/contact",
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.7,
-    },
-    {
-      url: "https://dwarkabikerentals.in/auto-rickshaw-dwarka",
-      lastModified: new Date(),
+      url: `${baseUrl}/how-it-works`,
+      lastModified: currentDate,
       changeFrequency: "monthly",
       priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/rental-info`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/auto-rickshaw-dwarka`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/about`,
+      lastModified: currentDate,
+      changeFrequency: "yearly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/contact`,
+      lastModified: currentDate,
+      changeFrequency: "yearly",
+      priority: 0.7,
     },
   ];
 }
