@@ -27,7 +27,7 @@ export default function AboutPage() {
         <div className="relative container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">About Dwarka Bikes</h1>
           <p className="text-xl text-white/80 max-w-2xl mx-auto">
-            Helping tourists and locals explore the beautiful city of Dwarka since 2015
+            Helping tourists and locals explore the beautiful city of Dwarka since 2024
           </p>
         </div>
       </div>
